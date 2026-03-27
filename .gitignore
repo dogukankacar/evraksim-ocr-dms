@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker files
+.dockerignore
+docker-compose.override.yml
+
+# Backend - ASP.NET Core
+backend/**/bin/
+backend/**/obj/
+backend/**/.vs/
+backend/**/TestResults/
+*.user
+*.suo
+
+# Frontend - Next.js
+frontend/node_modules/
+frontend/.next/
+client/node_modules/
+client/.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Configuration
+.DS_Store
+Thumbs.db
+
+# Ignore Uploaded Files
+backend/DMS.API/wwwroot/uploads/*
+!backend/DMS.API/wwwroot/uploads/.gitkeep
